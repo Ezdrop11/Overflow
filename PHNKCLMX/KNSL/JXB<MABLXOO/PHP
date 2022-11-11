@@ -1,0 +1,15 @@
+<?php
+ini_set('max_execution_time', 9999);
+
+$keys = array('A72DFAFABCC74','C9E8919E499FA','F13D27FBCF526','@RDayUl*]",twKo',); 
+$sub = $_GET["key"];
+if (in_array($sub,$keys,TRUE)) {
+print('~ True ~');
+}
+else
+{
+print ($_SERVER['REMOTE_ADDR']);
+}
+
+?>
+
