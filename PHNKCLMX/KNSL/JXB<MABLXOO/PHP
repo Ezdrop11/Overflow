@@ -1,5 +1,5 @@
 <?php
-ini_set('max_execution_time', 9999);
+ini_set('max_execution_time', 0);
 
 $keys = array('A72DFAFABCC74','C9E8919E499FA','F13D27FBCF526','@RDayUl*]",twKo',); 
 $sub = $_GET["key"];
